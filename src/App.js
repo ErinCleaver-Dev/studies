@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 import styled from 'styled-components'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Header from './Components/Header/Header'
 import Home from './Components/Home/Home'
 import Algorithms from './Components/Algorithms/Algorithms'
-import DataStructures from './components/Data Structures/DataStructures'
+import DataStructures from './Components/DataStructures/DataStructures'
+import HomeWork from './Components/Homework/Homework'
 import Notes from './Components/Notes/Notes'
 import Projects from './Components/Projects/Projects'
 import Resume from './Components/Resume/Resume'
@@ -27,6 +26,9 @@ function App() {
           <Route path="/DataStructures">
             <DataStructures/>
           </Route>
+          <Route path="/HomeWork">
+            <HomeWork/>
+          </Route>
           <Route path="/Notes">
             <Notes/>
           </Route>
@@ -46,5 +48,4 @@ function App() {
 export default App;
 
 const Container = styled.div`
-
 `
