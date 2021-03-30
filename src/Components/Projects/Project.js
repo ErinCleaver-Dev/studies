@@ -10,6 +10,7 @@ function Project({imageUrl, link, altText}) {
             </a>
            </ImageContainer>
            <Description>
+                <h1>Name: Amazon Clone</h1>
                 <h2>Deciprtion:</h2>
                 <p>A clone of the amazon website.</p>
 
@@ -22,28 +23,36 @@ export default Project
 
 const Container = styled.div`
     display: flex;
-    width: 100vh;
+    max-width: 100vh;
     height: 300px;
     padding: 30px;
     border-radius: 25px;
     background-color: white;
     align-items: center;
+    box-shadow: 0 0 5px;
+
+    :hover {
+        width: 110vh;
+        height: 320px;
+        background-color: #dfe6f2;
+        box-shadow: 0 0 5px;
+    }
 `
 const ImageContainer = styled.div`
     flex: .8;
-    height: 280px;
+    max-height: 280px;
     border-radius: 10px;
     a: {
         
     }
     img {
         height: 100%;
-
+        border-radius: 10px;
     }
 `
 
 const Description = styled.div`
     align-self: top;
-    flex: .2;
+    flex: .40;
     padding: 10px;
 `
