@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
+import Project from './Project'
 
 function Projects() {
     return (
@@ -9,7 +10,7 @@ function Projects() {
             <title>Projects</title>
         </Helmet>
         <Body>
-            place Holder for Data Structures page
+            <Project link="https://amazonclone-ecleaver.netlify.app/" imageUrl="https://i.imgur.com/vePKgzn.png" alt="Link to amazon Clone" />
         </Body>
     </Container>
     )
@@ -24,13 +25,9 @@ const Container = styled.div`
     align-items: center;
     flex-direction: column;
     background-color: #ccc5b1;
-    height: 700px;
+    height: 100vh;
 `
 const Body = styled.div`
     margin: 10px;
     padding: 10px;
-    display: flex;
-    background-color: white;
-    width: 70vh;
-    justify-content: center;
 `
