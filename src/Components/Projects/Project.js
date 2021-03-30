@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function Project({imageUrl, link, altText}) {
+function Project({imageUrl, link, altText, title, description}) {
     return (
        <Container>
            <ImageContainer>
@@ -10,9 +10,9 @@ function Project({imageUrl, link, altText}) {
             </a>
            </ImageContainer>
            <Description>
-                <h1>Name: Amazon Clone</h1>
+                <h1>Name: {title}</h1>
                 <h2>Deciprtion:</h2>
-                <p>A clone of the amazon website.</p>
+                <p>{description}</p>
 
            </Description>
        </Container>
@@ -46,7 +46,7 @@ const ImageContainer = styled.div`
         
     }
     img {
-        height: 100%;
+        max-height: 280px;
         border-radius: 10px;
     }
 `

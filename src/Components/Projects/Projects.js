@@ -10,7 +10,12 @@ function Projects() {
             <title>Projects</title>
         </Helmet>
         <Body>
-            <Project link="https://amazonclone-ecleaver.netlify.app/" imageUrl="https://i.imgur.com/vePKgzn.png" alt="Link to amazon Clone" />
+            <Project 
+            link="https://amazonclone-ecleaver.netlify.app/" 
+            imageUrl="https://i.imgur.com/vePKgzn.png" 
+            alt="Link to amazon Clone" 
+            title="Amazon Clone"
+            description="A clone of the amazon website." />
         </Body>
     </Container>
     )
