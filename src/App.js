@@ -16,10 +16,6 @@ function App() {
       <Container>
         <Header/>
         <Switch>
-        <Route>
-          <Route path="/">
-            <Home/>
-          </Route>
           <Route path="/Algorithms">
             <Algorithms/>
           </Route>
@@ -38,7 +34,9 @@ function App() {
           <Route path="/Resume">
             <Resume/>
           </Route>
-        </Route>
+          <Route path="/">
+            <Home/>
+          </Route>
         </Switch>
       </Container>
     </Router>
