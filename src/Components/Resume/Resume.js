@@ -9,7 +9,13 @@ function Resume() {
             <title>Resume</title>
         </Helmet>
         <Body>
-            place Holder for Data Structures page
+            <ContactInformtion>
+
+            </ContactInformtion>
+            <EmployementHistory>
+            </EmployementHistory>
+            <EducationHistory>
+            </EducationHistory>
         </Body>
     </Container>
     )
@@ -32,4 +38,17 @@ const Body = styled.div`
     background-color: white;
     width: 70vh;
     justify-content: center;
+`
+const ContactInformtion = styled.div`
+
+`
+const EmployementHistory = styled.div`
+
+`
+
+const EducationHistory = styled.div`
+
+`
+const Skills = styled.div`
+
 `
