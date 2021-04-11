@@ -192,10 +192,90 @@
             {
                 "id" : "8.2",
                 "Point" : "Then you can call on the veriable later to return the number"
+            },
+            {
+                "id" : "8.3",
+                "Point" : "Not required to declare the type of veriable before use (unlike java and c++)"
             }
             
         ],
         "Example" : [
+        ]
+    },
+    {
+        "id" : "9",
+        "Section" : "Functions",
+        "List" : [
+            {
+                "id" : "9.1",
+                "Point" : "Allows you to store the information for later"
+            },
+            {
+                "id" : "9.2",
+                "Point" : "Do not have to repeat code that will be used more then once"
+            },
+            {
+                "id" : "9.3",
+                "Point" : "Commonets in python use # or \"\"\"."
+            },
+            {
+
+            }
+
+        ],
+        "Example" : [
+            {
+                "id" : "9.1",
+                "Number" : "Example 1:",
+                "Code" : [
+                    {
+                        "Line" : "import turtle"
+                    },
+                    {
+                        "Line" : ""
+                    },
+                    {
+                        "Line" : "turtle = turtle.Turtle()"
+                    },
+                    {
+                        "Line" : "def square(forward, left):"
+                    },
+                    {
+                        "Line" : "  turtle.forward(forward)"
+                    },
+                    {
+                        "Line" : "  turtle.left(left)"
+                    },
+                    {
+                        "Line" : "  turtle.forward(forward)"
+                    },
+                    {
+                        "Line" : "  turtle.left(left)"
+                    },
+                    {
+                        "Line" : "  turtle.forward(forward)"
+                    },
+                    {
+                        "Line" : "  turtle.left(left)"
+                    },
+                    {
+                        "Line" : "  turtle.forward(forward)"
+                    },
+                    {
+                        "Line" : "  turtle.left(left)"
+                    },
+                    {
+                        "Line" : "square(45, 90)"
+                    },
+                    {
+                        "Line" : "turtle.forward(45)"
+                    },
+                    {
+                        "Line" : "square(45, 90)"
+                    }
+                ],
+                "Image" : "https://i.imgur.com/ihy2oDO.png"
+            }
         ]
     }
 ]

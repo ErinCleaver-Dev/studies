@@ -11,8 +11,9 @@ const Code = ({example}) => {
                         {code.Line} <br/>
                     </div>
                 ))}</CodeFormated>
-                <CodeFormated></CodeFormated>
-                <a href={example.Url}><Image src={example.Image}/></a>
+                <ImageFormated>
+                    <a href={example.Url}><Image src={example.Image}/></a>
+                </ImageFormated>
             </Row>
         </ExampleSection>
     )
@@ -35,13 +36,15 @@ const Row = styled.div`
 `
 
 const Image = styled.img`
-    border-left: 2px solid #17332f;
     padding: 20px;
-    height: 300px;
-    flex: .4;
+    height: 400px;
 `
 
 const CodeFormated = styled.div`
     padding-left: 20px;
     flex: .8
+`
+const ImageFormated = styled.div`
+    border-left: 2px solid #17332f;
+    flex: .35;
 `
