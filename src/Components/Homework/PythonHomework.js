@@ -1,40 +1,37 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
-import  Notes  from './Notes';
-import * as Python_Notes from '../../Data/Python_Notes.json';
 
-
-function PythonNotes() {
+const PythonHomework = () => {
     return (
-    <Container>
+        <Container>
         <Helmet>
-            <title>Python Notes</title>
+            <title>Python Homework</title>
         </Helmet>
         <Body>
-            
-            <Notes notes={Python_Notes.Python_Notes}/>
-           
+            Place Holder for Homework page
         </Body>
-    </Container>
+     </Container>
     )
+
 }
 
-export default PythonNotes
 
 
+export default PythonHomework
 
 const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #ccc5b1;
-    height: 100%;
+    height: 700px;
 `
 const Body = styled.div`
     margin: 10px;
     padding: 10px;
     display: flex;
-    background-color: white .1;
+    background-color: white;
+    width: 70vh;
     justify-content: center;
 `

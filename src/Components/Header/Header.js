@@ -40,12 +40,18 @@ function header() {
                 </Link>
             </LinkFormtare>
             <LinkFormtare>
-                <Link to="/Homework">
-                    Homework
-                </Link>
+                <NavDropdown  title="Homework" variant='custom' id="nav-dropdown" className="notes" >
+                    <div>
+                    <NavDropdown.Item value="PythonHomework"  className="notes-dropdown" >
+                        <Link to="/PythonHomework">
+                            Python Homework
+                        </Link>
+                    </NavDropdown.Item >
+                    </div>
+                </NavDropdown >
             </LinkFormtare>
             <LinkFormtare>
-                <Link to="/AlgorithmsProjects">
+                <Link to="/Projects">
                     Projects
                 </Link>
             </LinkFormtare>
@@ -77,8 +83,8 @@ const LinkFormtare = styled.div`
     .notes-dropdown {
         color: white;
         background-color: #17332f;
-        border: 4px solid black;
-        padding: 5px;
+        border: 4px solid #121c1f;
+        font-size: 25px;
     }
    
 `
