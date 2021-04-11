@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import {Link} from 'react-router-dom'
+import { NavDropdown} from 'react-bootstrap'
+
 function header() {
     return (
 
@@ -17,9 +19,15 @@ function header() {
                 </Link>
             </LinkFormtare>
             <LinkFormtare>
-                <Link to="/Notes">
-                    Notes
-                </Link>
+                <NavDropdown  title="Notes" variant='custom' id="nav-dropdown" className="notes" >
+                    <div>
+                    <NavDropdown.Item value="PythonNotes"  className="notes-dropdown" >
+                        <Link to="PythonNotes">
+                            Python Notes
+                        </Link>
+                    </NavDropdown.Item >
+                    </div>
+                </NavDropdown >
             </LinkFormtare>
             <LinkFormtare>
                 <Link to="DataStructures">
@@ -53,7 +61,8 @@ const Constructor = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    height: 50px;
+    width: 100%;
+    height: 70px;
 `
 const LinkFormtare = styled.div`
     padding: 20px;
@@ -61,5 +70,16 @@ const LinkFormtare = styled.div`
         color: white;
         text-decoration: none;
     }
+    .notes {
+        color: white;
+        background-color: #17332f;
+    }
+    .notes-dropdown {
+        color: white;
+        background-color: #17332f;
+        border: 4px solid black;
+        padding: 5px;
+    }
+   
 `
 

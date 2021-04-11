@@ -1,37 +1,68 @@
-import React from 'react'
+import React, { useState} from 'react'
 import styled from 'styled-components';
-import { Helmet } from 'react-helmet';
 
 
-function Notes() {
+
+const Notes = ({notes, parentData}) => {
+
+    let count =0;
+    let hidden = "hidden";
     return (
-    <Container>
-        <Helmet>
-            <title>Notes</title>
-        </Helmet>
-        <Body>
-            place Holder for Data Structures page
-        </Body>
-    </Container>
+        <Container>
+            <Accordion>
+                {notes.map((note) => (
+                    <div>         
+                        <AccordionButton type="botton" id={"check" . count}>
+                            <TitleSection> {note.Section}</TitleSection>
+                        </AccordionButton>
+                        <BodySection>
+                            <ul>
+                                {note.List.map((notesLists) => (
+                                    <li>
+                                        {notesLists.Point}
+                                    </li>
+                                ))}
+                            </ul>
+                        </BodySection>
+                    </div>   
+                ))}
+            </Accordion>
+
+                    
+        </Container>
     )
 }
 
 export default Notes
 
 
-
 const Container = styled.div`
+
+`
+const Accordion = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+const AccordionButton = styled.button`
+    width: 100%;
+    background-color: #c4e3ac;
+    color: #444;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    background-color: #ccc5b1;
-    height: 700px;
+    border: none;
+    outline: none;
+    border: 2px solid #17332f;
 `
-const Body = styled.div`
-    margin: 10px;
-    padding: 10px;
-    display: flex;
+
+const TitleSection = styled.label`
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+`
+
+const BodySection = styled.div`
+    padding: 0 1em;
     background-color: white;
-    width: 70vh;
-    justify-content: center;
-`
+   `

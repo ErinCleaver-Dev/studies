@@ -1,27 +1,27 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
+import  Notes  from './Notes';
+import * as Python_Notes from '../../Data/Notes.json'
 
-function Resume() {
+
+function PythonNotes() {
     return (
     <Container>
         <Helmet>
-            <title>Resume</title>
+            <title>Python Notes</title>
         </Helmet>
         <Body>
-            <ContactInformtion>
-                
-            </ContactInformtion>
-            <EmployementHistory>
-            </EmployementHistory>
-            <EducationHistory>
-            </EducationHistory>
+            
+            <Notes notes={Python_Notes.Python_Notes} parentData="accordionTop"/>
+           
         </Body>
     </Container>
     )
 }
 
-export default Resume
+export default PythonNotes
+
 
 
 const Container = styled.div`
@@ -36,19 +36,5 @@ const Body = styled.div`
     padding: 10px;
     display: flex;
     background-color: white;
-    width: 70vh;
     justify-content: center;
-`
-const ContactInformtion = styled.div`
-
-`
-const EmployementHistory = styled.div`
-
-`
-
-const EducationHistory = styled.div`
-
-`
-const Skills = styled.div`
-
 `

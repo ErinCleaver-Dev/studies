@@ -27,6 +27,7 @@ const Container = styled.div`
     background-color: #ccc5b1;
     justify-content: center;
     height: 700px;
+    width: 100%;
 `
 
 const Introduction = styled.div`

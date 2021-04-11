@@ -5,7 +5,7 @@ import Home from './Components/Home/Home'
 import Algorithms from './Components/Algorithms/Algorithms'
 import DataStructures from './Components/DataStructures/DataStructures'
 import HomeWork from './Components/Homework/Homework'
-import Notes from './Components/Notes/Notes'
+import PythonNotes from './Components/Notes/PythonNotes'
 import Projects from './Components/Projects/Projects'
 import Resume from './Components/Resume/Resume'
 
@@ -25,8 +25,8 @@ function App() {
           <Route path="/HomeWork">
             <HomeWork/>
           </Route>
-          <Route path="/Notes">
-            <Notes/>
+          <Route path="/PythonNotes">
+            <PythonNotes/>
           </Route>
           <Route path="/Projects">
             <Projects/>

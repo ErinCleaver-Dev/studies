@@ -23,8 +23,10 @@ export default Project
 
 const Container = styled.div`
     display: flex;
-    max-width: 100vh;
-    height: 300px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
     padding: 30px;
     border-radius: 25px;
     background-color: white;
@@ -32,27 +34,28 @@ const Container = styled.div`
     box-shadow: 0 0 5px;
 
     :hover {
-        width: 110vh;
-        height: 320px;
+        width: 82%;
+        height: 42vh;
         background-color: #dfe6f2;
         box-shadow: 0 0 5px;
     }
 `
 const ImageContainer = styled.div`
-    flex: .8;
-    max-height: 280px;
+    flex: .40;
+    height: 35vh;
     border-radius: 10px;
     a: {
         
     }
     img {
-        max-height: 280px;
+        display : inline-block;
+        height: 100%;
         border-radius: 10px;
     }
 `
 
 const Description = styled.div`
     align-self: top;
-    flex: .40;
+    flex: .20;
     padding: 10px;
 `
