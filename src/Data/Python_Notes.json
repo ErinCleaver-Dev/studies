@@ -164,6 +164,39 @@
                 "Image" : "https://i.imgur.com/awj4PYo.png"
             }
         ]
+    },
+    {
+        "id" : "7",
+        "Section" : "How to Get Instant Feedback: Breakdown: Interactive Shell vs. Script",
+        "List" : [
+            {
+                "id" : "7.1",
+                "Point" : "When you are on the right side you can code interactively and get instant feedback"
+            },
+            {
+                "id" : "7.2",
+                "Point" : "When done you turn it into a script and the script runs all at once"
+            }
+        ],
+        "Example" : [
+        ]
+    }, 
+    {
+        "id" : "8",
+        "Section" : "Variables Used to Store information",
+        "List" : [
+            {
+                "id" : "8.1",
+                "Point" : "Makes it so the computer will remember information"
+            },
+            {
+                "id" : "8.2",
+                "Point" : "Then you can call on the veriable later to return the number"
+            }
+            
+        ],
+        "Example" : [
+        ]
     }
 ]
 

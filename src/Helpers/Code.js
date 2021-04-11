@@ -25,6 +25,7 @@ const ExampleSection = styled.div`
 `
 
 const SubTitle = styled.div`
+    font-weight: bold;
     border: 2px solid #17332f;
     padding-left: 20px;
 `
