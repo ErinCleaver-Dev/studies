@@ -22,7 +22,7 @@ function header() {
                 <NavDropdown  title="Notes" variant='custom' id="nav-dropdown" className="notes" >
                     <div>
                     <NavDropdown.Item value="PythonNotes"  className="notes-dropdown" >
-                        <Link to="PythonNotes">
+                        <Link to="/PythonNotes">
                             Python Notes
                         </Link>
                     </NavDropdown.Item >
@@ -30,22 +30,22 @@ function header() {
                 </NavDropdown >
             </LinkFormtare>
             <LinkFormtare>
-                <Link to="DataStructures">
+                <Link to="/DataStructures">
                     Data Structures
                 </Link>
             </LinkFormtare>
             <LinkFormtare>
-                <Link to="Algorithms">
+                <Link to="/Algorithms">
                     Algorithms
                 </Link>
             </LinkFormtare>
             <LinkFormtare>
-                <Link to="Homework">
+                <Link to="/Homework">
                     Homework
                 </Link>
             </LinkFormtare>
             <LinkFormtare>
-                <Link to="Projects">
+                <Link to="/AlgorithmsProjects">
                     Projects
                 </Link>
             </LinkFormtare>
