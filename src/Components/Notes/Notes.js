@@ -1,6 +1,6 @@
 import React from 'react'
-import styled, {setState } from 'styled-components';
-
+import styled from 'styled-components';
+import Code from '../../Helpers/Code'
 
 
 const Notes = ({notes}) => {
@@ -26,23 +26,15 @@ const Notes = ({notes}) => {
 
                             }
                         </List>
+                        <ExampleSection>
                             {
                                 
                                 note.Example.map((example) => (
-                                    <ExampleSection>
-                                    <SubTitle>{example.Number}</SubTitle>
-                                    <Row>
-                                        <Code>{example.Code.map((code) => (
-                                            <div>
-                                                {code.Line} <br/>
-                                            </div>
-                                        ))}</Code>
-                                        <Image src={example.Image}/>
-                                    </Row>
-                                    </ExampleSection>
+                                  <Code example={example}/>
                                 ))
                                 
                             }
+                        </ExampleSection>
                         </BodySection>
                     </div>   
                 ))}
@@ -55,7 +47,10 @@ const Notes = ({notes}) => {
 
 export default Notes
 
+const ExampleSection = styled.div`
+    border: 2px solid #17332f;
 
+`
 const Container = styled.div`
 
 `
@@ -89,29 +84,6 @@ const BodySection = styled.div`
     background-color: white;
 `
 
-const ExampleSection = styled.div`
-    border: 2px solid #17332f;
-    display: flex;
-    flex-direction: column;
 
-`
-const SubTitle = styled.div`
-    border-bottom: 2px solid #17332f;
-    padding-left: 20px;
-`
-const Code = styled.div`
-    padding-left: 20px;
-    flex: .8
-`
 const List = styled.div`
-`
-const Image = styled.img`
-    border-left: 2px solid #17332f;
-    padding: 20px;
-    height: 300px;
-    flex: .4;
-`
-
-const Row = styled.div`
-    display: flex;
 `
