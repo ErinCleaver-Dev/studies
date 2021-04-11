@@ -42,6 +42,7 @@ const Container = styled.div`
 const Accordion = styled.div`
     display: flex;
     flex-direction: column;
+    font-size: 30px;
 `
 const AccordionButton = styled.button`
     width: 100%;
@@ -53,13 +54,14 @@ const AccordionButton = styled.button`
     border: none;
     outline: none;
     border: 2px solid #17332f;
+
 `
 
 const TitleSection = styled.label`
 
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 30px;
 `
 
 const BodySection = styled.div`

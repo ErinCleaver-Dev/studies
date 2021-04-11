@@ -13,7 +13,7 @@ function PythonNotes() {
         </Helmet>
         <Body>
             
-            <Notes notes={Python_Notes.Python_Notes} parentData="accordionTop"/>
+            <Notes notes={Python_Notes.Python_Notes}/>
            
         </Body>
     </Container>
@@ -29,12 +29,12 @@ const Container = styled.div`
     align-items: center;
     flex-direction: column;
     background-color: #ccc5b1;
-    height: 700px;
+    height: 100%;
 `
 const Body = styled.div`
     margin: 10px;
     padding: 10px;
     display: flex;
-    background-color: white;
+    background-color: white .1;
     justify-content: center;
 `
