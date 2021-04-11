@@ -1,28 +1,48 @@
-import React, { useState} from 'react'
-import styled from 'styled-components';
+import React from 'react'
+import styled, {setState } from 'styled-components';
 
 
 
-const Notes = ({notes, parentData}) => {
+const Notes = ({notes}) => {
 
-    let count =0;
-    let hidden = "hidden";
+
     return (
         <Container>
             <Accordion>
                 {notes.map((note) => (
-                    <div>         
-                        <AccordionButton type="botton" id={"check" . count}>
-                            <TitleSection> {note.Section}</TitleSection>
+                    <div >         
+                        <AccordionButton type="botton">
+                            <TitleSection key={note.id}> {note.Section}</TitleSection>
                         </AccordionButton>
                         <BodySection>
-                            <ul>
-                                {note.List.map((notesLists) => (
-                                    <li>
-                                        {notesLists.Point}
-                                    </li>
+                        <List>
+                            
+                            {
+                                <ul>
+                                {note.List.map((list, id2) => (
+                                    <li key={id2}>{list.Point}</li>
                                 ))}
-                            </ul>
+                                </ul>
+
+                            }
+                        </List>
+                            {
+                                
+                                note.Example.map((example) => (
+                                    <ExampleSection>
+                                    <SubTitle>{example.Number}</SubTitle>
+                                    <Row>
+                                        <Code>{example.Code.map((code) => (
+                                            <div>
+                                                {code.Line} <br/>
+                                            </div>
+                                        ))}</Code>
+                                        <Image src={example.Image}/>
+                                    </Row>
+                                    </ExampleSection>
+                                ))
+                                
+                            }
                         </BodySection>
                     </div>   
                 ))}
@@ -65,6 +85,33 @@ const TitleSection = styled.label`
 `
 
 const BodySection = styled.div`
-    padding: 0 1em;
+    padding: 1em 1em;
     background-color: white;
-   `
+`
+
+const ExampleSection = styled.div`
+    border: 2px solid #17332f;
+    display: flex;
+    flex-direction: column;
+
+`
+const SubTitle = styled.div`
+    border-bottom: 2px solid #17332f;
+    padding-left: 20px;
+`
+const Code = styled.div`
+    padding-left: 20px;
+    flex: .8
+`
+const List = styled.div`
+`
+const Image = styled.img`
+    border-left: 2px solid #17332f;
+    padding: 20px;
+    height: 300px;
+    flex: .4;
+`
+
+const Row = styled.div`
+    display: flex;
+`

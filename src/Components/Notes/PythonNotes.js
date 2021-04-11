@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import  Notes  from './Notes';
-import * as Python_Notes from '../../Data/Notes.json'
+import * as Python_Notes from '../../Data/Notes.json';
 
 
 function PythonNotes() {

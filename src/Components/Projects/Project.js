@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
-function Project({imageUrl, link, altText, title, description}) {
+
+function Project({imageUrl, link, altText, title, description, github}) {
     return (
        <Container>
            <ImageContainer>
@@ -13,7 +15,7 @@ function Project({imageUrl, link, altText, title, description}) {
                 <h1>Name: {title}</h1>
                 <h2>Deciprtion:</h2>
                 <p>{description}</p>
-
+                <a href={github} alt={altText}>{<GitHubIcon/>}</a>
            </Description>
        </Container>
     )
@@ -44,9 +46,7 @@ const ImageContainer = styled.div`
     flex: .40;
     height: 35vh;
     border-radius: 10px;
-    a: {
-        
-    }
+    
     img {
         display : inline-block;
         height: 100%;
@@ -58,4 +58,10 @@ const Description = styled.div`
     align-self: top;
     flex: .20;
     padding: 10px;
+    a {
+        color: black;
+    }
+    a:focus {
+        color: black;
+    }
 `

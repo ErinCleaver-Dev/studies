@@ -15,7 +15,8 @@ function Projects() {
             imageUrl="https://i.imgur.com/vePKgzn.png" 
             alt="Link to amazon Clone" 
             title="Amazon Clone"
-            description="A clone of the amazon website." />
+            description="A clone of the amazon website." 
+            github="https://github.com/ErinCleaver-GRCC/amazonclone"/>
         </Body>
     </Container>
     )

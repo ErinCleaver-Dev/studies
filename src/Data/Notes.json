@@ -1,54 +1,145 @@
 { "Python_Notes" : [
     {
         "Section" : "4 Critical Tips on how to Be a Top Performer",
+        "id" : "1",
         "List" : [
             {
+                "id" : "1.1",
                 "Point" : "Give Value First"
             },
             {
+                "id" : "1.2",
                 "Point" : "Avoid saying I Can't and Instead program myself thinking How can I?"
             },
             {
+                "id" : "1.3",
                 "Point" : "Take Full responsiblity for failures and successes."
             },
             {
+                "id" : "1.4",
                 "Point" : "Brual honesty with myeself (PDA: Public Display of Accountability)"
             }
-        ]
+        ],
+        "Example" : []
     },
     {
+        "id" : "2",
         "Section" : "Securet to Never Quit",
         "List" : [
             {
+                "id" : "2.1",
                 "Point" : "Motivation: First understanding what drives us to do something"
             },
             {
+                "id" : "2.2",
                 "Point" : "People quit when they loss motivation"
             },
             {
+                "id" : "2.3",
                 "Point" : "Postive and negative Motivation"
             },
             {
+                "id" : "2.4",
                 "Point" : "Do not quit due to lack of Motivation"
             },
             {
+                "id" : "2.5",
                 "Point" : "Establish a System"
             }
-        ]
+        ],
+        "Example" : []
     },
     {
+        "id" : "3",
         "Section" : "Use These Powerful Strategies to Earn More and Work Less",
         "List" : [
             {
+                "id" : "3.1",
                 "Point" : "Charge between $150 to $300 hour"
             }
-        ]
+        ],
+        "Example" : []
+
     }, 
     {
+        "id" : "4",
         "Section" : "The Power of Systems ... How to Automate Your Success",
         "List" : [
             {
-                "Point" : ""
+                "id" : "4.1",
+                "Point" : "Listen to audio books"
+            },
+            {
+                "id" : "4.2",
+                "Point" : "Reduce TV watched"
+            },
+            {
+                "id" : "4.3",
+                "Point" : "Control who your Friends with"
+            }
+        ],
+        "Example" : []
+
+    },
+    {
+        "id" : "5",
+        "Section" : "Module 1: The Fundamentals of Python (Python Crash Course)",
+        "List" : [],
+        "Example" : []
+    },
+    {
+        "id" : "6",
+        "Section" : "How to Learn Python Fast ... Introducing Turtle Module in python",
+        "List" : [ 
+            {
+                "id" : "6.1",
+                "Point" : "Allows you to create shapes"
+            },
+            {
+                "id" : "6.2",
+                "Point" : "Lets you see what is happening"
+            },
+            {
+                "id" : "6.3",
+                "Point" : "Lets you make a window that shows something"
+            }
+
+        ],
+        "Example" : [ 
+            {
+                "id" : "6.1",
+                "Number" : "Example 1: ",
+                "Code" : [
+                    {
+                        "Line" : "import turtle"
+                    }, 
+                    {
+                        "Line" : " turtle = turtle.Turtle()"
+                    },
+                    {
+                        "Line" : "nturtle.forward(90)"
+                    }
+                ],
+                "Image" : "https://i.imgur.com/l9la0zF.png"
+            },
+            {
+                "id": "6.2",
+                "Number" : "Example 2:",
+                "Code" : [
+                    {
+                        "Line" :"import turtle"
+                    },
+                    {
+                        "Line" : " turtle = turtle.Turtle()"
+                    },
+                    {
+                        "Line" : "nturtle.forward(90)"
+                    },
+                    {
+                        "Line" : "turtle.left(90)"
+                    }
+                ],
+                "Image" : "https://i.imgur.com/VOA6OJv.png"
             }
         ]
     }
