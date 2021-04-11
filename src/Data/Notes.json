@@ -140,6 +140,27 @@
                     }
                 ],
                 "Image" : "https://i.imgur.com/VOA6OJv.png"
+            },
+            {
+                "id": "6.3",
+                "Number" :"Example 3:",
+                "Code" : [
+                    {
+                        "Line" : "import turtle"
+                    },
+                    {
+                        "Line" : " turtle = turtle.Turtle()"
+                    },
+                    {
+                        "Line" : "nturtle.forward(90)"
+                    },
+                    {
+                        "Line" : "turtle.left(90)"
+                    },
+                    {
+                        "Line" : "turtle.forward(90)"
+                    }
+                ]
             }
         ]
     }
