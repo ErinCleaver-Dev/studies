@@ -306,6 +306,110 @@
                 "Image" : "https://i.imgur.com/ihy2oDO.png"
             }
         ]
+    },
+    {
+        "id" : "10",
+        "Section" : "Lets do Basic Math",
+        "List" : [
+            {
+                "id" : "9.1",
+                "Point" : "divison \/ or \/\/"
+            },
+            {
+                "id" : "9.2",
+                "Point" : "Multiplication *"
+            },
+            {
+                "id" : "9.3",
+                "Point" : "Returns 0 if divison has no reminder %"
+            },
+            {
+                "id" : "9.4",
+                "Point" : "Addtion is done with the + operator"
+            },
+            {
+                "id" : "9.5",
+                "Point" : "Subtraction is done with the - operator"
+            },
+            {
+                "id" : "9.6",
+                "Point" : "To perform a power operation do **"
+            }
+        ],
+        "Example" : [
+            {
+                "id" : "9.1",
+                "Number" : "Example 1:",
+                "Code" : [
+                    {
+                        "Line" : "import turtle",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "turtle = turtle.Turtle()",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "def square(forward, left):",
+                        "SubLine1" : [
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            },
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            },
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            },
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            } 
+                        ]
+                    },
+                    {
+                        "Line" : "square(120*2, 90)",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "square(120/2, 90)",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "turtle.forward(120/2)",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "square(120/2, 90)",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "turtle.forward(120/2)",
+                        "SubLine1" : []
+                    },
+                    {
+                        "Line" : "square(2**7, 90)",
+                        "SubLine1" : []
+                    }
+                ],
+                "Image" : "https://i.imgur.com/ieJKw8i.png"
+            }
+        ]
     }
 ]
 
