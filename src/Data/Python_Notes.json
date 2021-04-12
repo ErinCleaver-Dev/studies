@@ -312,28 +312,28 @@
         "Section" : "Lets do Basic Math",
         "List" : [
             {
-                "id" : "9.1",
+                "id" : "10.1",
                 "Point" : "divison \/ or \/\/"
             },
             {
-                "id" : "9.2",
+                "id" : "10.2",
                 "Point" : "Multiplication *"
             },
             {
-                "id" : "9.3",
+                "id" : "10.3",
                 "Point" : "Returns 0 if divison has no reminder %"
             },
             {
-                "id" : "9.4",
+                "id" : "10.4",
                 "Point" : "Addtion is done with the + operator"
             },
             {
-                "id" : "9.5",
+                "id" : "10.5",
                 "Point" : "Subtraction is done with the - operator"
             },
             {
-                "id" : "9.6",
-                "Point" : "To perform a power operation do **"
+                "id" : "10.6",
+                "Point" : "To perform a power operation use the ** operator"
             }
         ],
         "Example" : [
