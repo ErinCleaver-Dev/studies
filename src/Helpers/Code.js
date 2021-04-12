@@ -9,6 +9,15 @@ const Code = ({example}) => {
                 <CodeFormated>{example.Code.map((code) => (
                     <div>
                         {code.Line} <br/>
+                        <SubLine>
+                        {
+                            code.SubLine1.map((subline) =>(
+                                
+                                <li>{subline.Line}</li>
+                                
+                            ))
+                        }
+                        </SubLine>
                     </div>
                 ))}</CodeFormated>
                 <ImageFormated>
@@ -27,7 +36,7 @@ const ExampleSection = styled.div`
 
 const SubTitle = styled.div`
     font-weight: bold;
-    border: 2px solid #17332f;
+    border-bottom: 2px solid #17332f;
     padding-left: 20px;
 `
 
@@ -44,6 +53,12 @@ const CodeFormated = styled.div`
     padding-left: 20px;
     flex: .8
 `
+const SubLine = styled.ul`
+    li {
+        list-style-type: none;
+    }
+`
+
 const ImageFormated = styled.div`
     border-left: 2px solid #17332f;
     flex: .35;

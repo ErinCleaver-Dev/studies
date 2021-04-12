@@ -26,15 +26,18 @@ const Notes = ({notes}) => {
 
                             }
                         </List>
-                        <ExampleSection>
+                        
                             {
                                 
                                 note.Example.map((example) => (
+                                  <ExampleSection>
+
                                   <Code example={example}/>
+                                  </ExampleSection>
+
                                 ))
                                 
                             }
-                        </ExampleSection>
                         </BodySection>
                     </div>   
                 ))}

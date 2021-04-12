@@ -111,13 +111,16 @@
                 "Number" : "Example 1: ",
                 "Code" : [
                     {
-                        "Line" : "import turtle"
+                        "Line" : "import turtle",
+                        "SubLine1" : []
                     }, 
                     {
-                        "Line" : " turtle = turtle.Turtle()"
+                        "Line" : " turtle = turtle.Turtle()",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "nturtle.forward(90)"
+                        "Line" : "nturtle.forward(90)",
+                        "SubLine1" : []
                     }
                 ],
                 "Image" : "https://i.imgur.com/l9la0zF.png"
@@ -127,16 +130,20 @@
                 "Number" : "Example 2:",
                 "Code" : [
                     {
-                        "Line" :"import turtle"
+                        "Line" :"import turtle",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : " turtle = turtle.Turtle()"
+                        "Line" : " turtle = turtle.Turtle()",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "nturtle.forward(90)"
+                        "Line" : "nturtle.forward(90)",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "turtle.left(90)"
+                        "Line" : "turtle.left(90)",
+                        "SubLine1" : []
                     }
                 ],
                 "Image" : "https://i.imgur.com/VOA6OJv.png"
@@ -146,19 +153,24 @@
                 "Number" :"Example 3:",
                 "Code" : [
                     {
-                        "Line" : "import turtle"
+                        "Line" : "import turtle",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : " turtle = turtle.Turtle()"
+                        "Line" : " turtle = turtle.Turtle()",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "nturtle.forward(90)"
+                        "Line" : "nturtle.forward(90)",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "turtle.left(90)"
+                        "Line" : "turtle.left(90)",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "turtle.forward(90)"
+                        "Line" : "turtle.forward(90)",
+                        "SubLine1" : []
                     }
                 ],
                 "Image" : "https://i.imgur.com/awj4PYo.png"
@@ -219,7 +231,16 @@
                 "Point" : "Commonets in python use # or \"\"\"."
             },
             {
-
+                "id" : "9.4",
+                "Point" : "Using visables to quicky learn what they are talking about"
+            },
+            {
+                "id" : "9.5",
+                "Point" : "Use a variable to change values mutiple times in a fuction"
+            },
+            {
+                "id" : "9.6",
+                "Point" : "A value is always required"
             }
 
         ],
@@ -229,49 +250,57 @@
                 "Number" : "Example 1:",
                 "Code" : [
                     {
-                        "Line" : "import turtle"
+                        "Line" : "import turtle",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : ""
+                        "Line" : "",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "turtle = turtle.Turtle()"
+                        "Line" : "turtle = turtle.Turtle()",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "def square(forward, left):"
+                        "Line" : "def square(forward, left):",
+                        "SubLine1" : [
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            },
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            },
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            },
+                            {
+                                "Line" : "  turtle.forward(forward)"
+                            },
+                            {
+                                "Line" : "  turtle.left(left)"
+                            } 
+                        ]
                     },
                     {
-                        "Line" : "  turtle.forward(forward)"
+                        "Line" : "square(45, 90)",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "  turtle.left(left)"
+                        "Line" : "turtle.forward(45)",
+                        "SubLine1" : []
                     },
                     {
-                        "Line" : "  turtle.forward(forward)"
-                    },
-                    {
-                        "Line" : "  turtle.left(left)"
-                    },
-                    {
-                        "Line" : "  turtle.forward(forward)"
-                    },
-                    {
-                        "Line" : "  turtle.left(left)"
-                    },
-                    {
-                        "Line" : "  turtle.forward(forward)"
-                    },
-                    {
-                        "Line" : "  turtle.left(left)"
-                    },
-                    {
-                        "Line" : "square(45, 90)"
-                    },
-                    {
-                        "Line" : "turtle.forward(45)"
-                    },
-                    {
-                        "Line" : "square(45, 90)"
+                        "Line" : "square(45, 90)",
+                        "SubLine1" : []
                     }
                 ],
                 "Image" : "https://i.imgur.com/ihy2oDO.png"

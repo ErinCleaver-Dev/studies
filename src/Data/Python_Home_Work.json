@@ -9,40 +9,52 @@
                 "Code" : [
                     {
                         "id" : "1.1",
-                        "Line" : "import turtle"
+                        "Line" : "import turtle",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.2",
-                        "Line" : "turtle = turtle.Turtle()"
+                        "Line" : "turtle = turtle.Turtle()",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.3",
-                        "Line" : "turtle.forward(90)"
+                        "Line" : "turtle.forward(90)",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.4",
-                        "Line" : "turtle.left(90)"
+                        "Line" : "turtle.left(90)",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.5",
-                        "Line" : "turtle.forward(90)"
+                        "Line" : "turtle.forward(90)",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.6",
-                        "Line" : "turtle.left(90)"
+                        "Line" : "turtle.left(90)",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.7",
-                        "Line" : "turtle.forward(90)"
+                        "Line" : "turtle.forward(90)",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.8",
-                        "Line" : "turtle.left(90)"   
+                        "Line" : "turtle.left(90)",
+                        "SubLine1" : []
                     },
                     {
                         "id" : "1.9",
-                        "Line" : "turtle.forward(90)"
+                        "Line" : "turtle.forward(90)",
+                        "SubLine1" : []
                     }
+                
+                        
+                    
                 ],
                 "Image" : "https://i.imgur.com/xKe0M5B.png",
                 "Url" : "https://replit.com/@ErinCleaver/Squre#main.py"
