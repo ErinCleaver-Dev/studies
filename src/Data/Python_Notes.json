@@ -410,6 +410,46 @@
                 "Image" : "https://i.imgur.com/ieJKw8i.png"
             }
         ]
+    },
+    {
+        "id" : "11",
+        "Section" : "Control Flow ... If/Then Statemenets to Control the World",
+        "List" : [
+            {
+                "id" : "11.1",
+                "Point" : "If typing if True it will always return true."
+            },
+            {
+                "id" : "11.2",
+                "Point" : "If typing in False it will always return false"
+            },
+            {
+                "id" : "11.3",
+                "Point" : "Use == to check if something is equal"
+            },
+            {
+                "id" : "11.4",
+                "Point" : "Used to check if > something is greater another thing"
+            },
+            {
+                "id" : "11.5",
+                "Point" : "Used to check if <= something is less then or equal to something"
+            }
+        ],
+        "Example" : [
+
+        ]
+    },
+    {
+        "id" :  "12",
+        "Section" : "While Loop ... How to Do stuff Over & Over & Over",
+        "List" : [
+            {
+                "id" : "12.1",
+                "Point" : ""
+            }
+        ],
+        "Example" : []
     }
 ]
 
