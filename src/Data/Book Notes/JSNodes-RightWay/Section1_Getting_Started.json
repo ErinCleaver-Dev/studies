@@ -1,0 +1,74 @@
+{ "Section 1: Getting Started" : [
+    {
+        "Section" : "Prefernce",
+        "id" : "1",
+        "List" : [
+            {
+                "id" : "1.1",
+                "Point" : "Softwre is becomeing asynchronus"
+            },
+            {
+                "id" : "1.2",
+                "Point" : "JavaScript is becoming a standard around the world"
+            },
+            {
+                "id" : "1.3",
+                "Point" : "Goal is to learn to write asynchronus code for servers using js.nodes"
+            }
+        ],
+        "Example" : []
+    },
+    {
+        "Section" : "Getting Started",
+        "id" : "2",
+        "List" : [
+            {
+                "id" : "2.1",
+                "Point" : "The goal is to teach you how to use nodes js"
+            }
+        ],
+        "Example" : []
+    },
+    {
+        "Section" : "What is js nodes used for",
+        "id" : "3",
+        "List" : [
+            {
+                "id" : "3.1",
+                "Point" : "Mapreduce queries, Document stores, and Data Serialization"
+            },
+            {
+                "id" : "3.2",
+                "Point" : "Middleware, APIs, and webservices"
+            },
+            {
+                "id" : "3.3",
+                "Point" : "Robotics, Drones, Internet of Things"
+            },
+            {
+                "id" : "3.5",
+                "Point" : "User interaction, Adminiation, and Dynamic Contant"
+            }
+        ],
+        "Example" : []
+    },
+    {
+        "Section" : "How Node Applications work",
+        "id" : "4",
+        "List" : [
+            {
+                "id" : "4.1",
+                "Point" : "In Node.js JavaScript uses an event loop for quickly performing operations"
+            },
+            {
+                "id" : "4.2",
+                "Point" : "Gives low-level access to even loop and to system resources"
+            }
+        ]
+    },
+    {
+        "Sectoion" : "Single-Threaded and Highly Parallel"
+    }
+]
+
+}
