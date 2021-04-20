@@ -1,0 +1,23 @@
+{ "Node_js_Introduction" : [
+    {
+        "Section" : "What is Nodes.js",
+        "id" : "1",
+        "List" : [
+            {
+                "id" : "1.1",
+                "Point" : "A platform which allows us to run javascript on a computer or server"
+            },
+            {
+                "id" : "1.2",
+                "Point" : "Read, delet and update files"
+            },
+            {
+                "id" : "1.3",
+                "Point" : "Easily communicate with a datebase"
+            }
+        ],
+        "Example" : []
+    }
+]
+
+}
