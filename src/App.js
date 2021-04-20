@@ -8,6 +8,7 @@ import PythonHomework from './Components/Homework/PythonHomework'
 import PythonNotes from './Components/Notes/PythonNotes'
 import Projects from './Components/Projects/Projects'
 import Resume from './Components/Resume/Resume'
+import IntroductionToNodeJs from './Components/Notes/Notes_js/IntroductionToNodeJs'
 
 function App() {
   
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/PythonNotes">
             <PythonNotes/>
+          </Route>
+          <Route path="/IntroductionToNodeJs">
+            <IntroductionToNodeJs />
           </Route>
           <Route path="/Projects">
             <Projects/>

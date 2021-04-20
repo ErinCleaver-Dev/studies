@@ -27,6 +27,15 @@ function header() {
                         </Link>
                     </NavDropdown.Item >
                     </div>
+                    <div>
+                    <NavDropdown title="Nodes js" variant='custom' id="nav-dropdown" className="notes changeSize">
+                        <NavDropdown.Item value="IntroductionToNodeJs"  className="notes-dropdown" >
+                        <Link to="/IntroductionToNodeJs">
+                            Introduction to Node js
+                        </Link>
+                        </NavDropdown.Item >
+                    </NavDropdown>
+                    </div>
                 </NavDropdown >
             </LinkFormtare>
             <LinkFormtare>
@@ -40,7 +49,7 @@ function header() {
                 </Link>
             </LinkFormtare>
             <LinkFormtare>
-                <NavDropdown  title="Homework" variant='custom' id="nav-dropdown" className="notes" >
+                <NavDropdown  title="Homework" variant='custom' id="nav-dropdown" className="notes" alignRight>
                     <div>
                     <NavDropdown.Item value="PythonHomework"  className="notes-dropdown" >
                         <Link to="/PythonHomework">
@@ -49,6 +58,8 @@ function header() {
                     </NavDropdown.Item >
                     </div>
                 </NavDropdown >
+                
+
             </LinkFormtare>
             <LinkFormtare>
                 <Link to="/Projects">
@@ -84,6 +95,10 @@ const LinkFormtare = styled.div`
         color: white;
         background-color: #17332f;
         border: 4px solid #121c1f;
+        font-size: 25px;
+    }
+
+    .changeSize {
         font-size: 25px;
     }
    

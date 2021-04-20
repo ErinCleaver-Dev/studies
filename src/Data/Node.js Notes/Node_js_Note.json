@@ -1,4 +1,4 @@
-{ "Node_js_Introduction" : [
+{ "Introduction" : [
     {
         "Section" : "What is Nodes.js",
         "id" : "1",
@@ -14,6 +14,58 @@
             {
                 "id" : "1.3",
                 "Point" : "Easily communicate with a datebase"
+            }
+        ],
+        "Example" : []
+    },
+    {
+        "Section" : "Why would you want to use Nodes.js",
+        "id" : "2",
+        "List" : [
+            {
+                "id" : "2.1",
+                "Point" : "It uses JavaScript"
+            },
+            {
+                "id" : "2.2",
+                "Point" : "It is Very Fast because it runs on the V8 engine and uses non-blocking code"
+            },
+            {
+                "id" : "2.3",
+                "Point" : "Huge ecosystem of open source packages using npm or yarn"
+            },
+            {
+                "id" : "2.4",
+                "Point" : "Offers real-time services"
+            }
+        ],
+        "Example" : []
+    },
+    {
+        "Section" : "What We'll Learn",
+        "id" : "3",
+        "List" : [],
+        "Example" : []
+    },
+    {
+        "Section" : "The inner workings of Node.js",
+        "id" : "4",
+        "List" : [
+            {
+                "id" : "4.1",
+                "Point" : "V8 Engine"
+            },
+            {
+                "id" : "4.2",
+                "Point" : "Module"
+            },
+            {
+                "id" : "4.3",
+                "Point" : "Event emitter"
+            },
+            {
+                "id" : "4.4",
+                "Point" : "The file system"
             }
         ],
         "Example" : []
