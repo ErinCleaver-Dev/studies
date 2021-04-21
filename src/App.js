@@ -29,6 +29,9 @@ function App() {
           <Route path="/PythonNotes">
             <PythonNotes/>
           </Route>
+          <Route path="Notes_js">
+            <IntroductionToNodeJs />
+          </Route>
           <Route path="/IntroductionToNodeJs">
             <IntroductionToNodeJs />
           </Route>
