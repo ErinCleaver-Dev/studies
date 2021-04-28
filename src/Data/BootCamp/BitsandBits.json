@@ -1,0 +1,33 @@
+{ "Bits and Bytes" : [
+    {
+        "Section" : "Computer fundations",
+        "id" : "1",
+        "List" : [
+            {
+                "id" : "1.1",
+                "Point" : "The stuff that makes up the computer"
+            },
+            {
+                "id" : "1.2",
+                "Point" : "It should have a input and an output"
+            },
+            {
+                "id" : "1.3",
+                "Point" : "Code is trasnlated into bits and bytes"
+            }
+        ],
+        "Example" : []
+    },
+        {
+            "Section" : "Bit",
+            "id" : "2",
+            "List" : [
+                {
+                    "id" : "1.2",
+                    "Point" : "Bits are 1s and 0s that get turned on or off"
+                }
+            ],
+            "Example" : []
+        }
+    ]
+}
