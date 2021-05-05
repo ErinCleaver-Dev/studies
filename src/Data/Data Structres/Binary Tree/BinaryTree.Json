@@ -1,0 +1,53 @@
+{ "Binary Tree" : [
+    {
+        "Section" : "What is a Binary Tree?",
+        "id" : "1",
+        "List" : [
+            {
+                "id" : "1.1",
+                "Point" : "A tree that has at most 2 children"
+            },
+            {
+                "id" : "1.2",
+                "Point" : "Normally named a left or right child"
+            }
+        ],
+        "Example" : []
+    },
+    {
+        "Section" : "Instroduction to Binary Tree",
+        "id" : "2",
+        "List" : [
+            {
+                "id" : "2.1",
+                "Point" : "A binary Tree is a linear data structure"
+            },
+            {
+                "id" : "2.2",
+                "Point" : "The top part of the tree is called a root same as in file system that is used in Linux"
+            },
+            {
+                "id" : "2.3",
+                "Point" : "The ones that are directly under it are called children"
+            },
+            {
+                "id" : "2.4",
+                "Point" : "The one directly above the child is know as a paren of that section and the one below it is know as the child of that section"
+            },
+            {
+                "id" : "2.5",
+                "Point" : "Elements that have non chilren are called leaves"
+            },
+            {
+                "id" : "2.6",
+                "Point" : "You can search through a brinary tree"
+            },
+            {
+                "id" : "2.7",
+                "Point" : "Also used for sorting data"
+            }
+        ]
+    }
+]
+
+}

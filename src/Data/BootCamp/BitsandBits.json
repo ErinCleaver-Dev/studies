@@ -23,11 +23,48 @@
             "id" : "2",
             "List" : [
                 {
-                    "id" : "1.2",
-                    "Point" : "Bits are 1s and 0s that get turned on or off"
+                    "id" : "2.1",
+                    "Point" : "Bits are 1s and 0s. Where 1 means on and 0 means off."
+                }, 
+                {
+                    "id" : "2.2",
+                    "Point" : "The smallest unit of data storage on a computer"
+                }, 
+                {
+                    "id" : "2.3",
+                    "Point" : "Computers are made of Transistors"
                 }
             ],
             "Example" : []
+        },
+        {
+            "Section" : "Bytes",
+            "id" : "3",
+            "List" : [
+                {
+                    "id" : "3.1",
+                    "Point" : "A Group of 8 bits makes 1 byte"
+                },
+                {
+                    "id" : "3.2",
+                    "Point" : "Computer count in 0s and 1s"
+                }
+            ],
+            "Example" : []
+        },
+        {
+            "Section" : "Binary Number System: ",
+            "id" : "4",
+            "List" : [
+                {
+                    "id" : "4.1",
+                    "Point" : "Every bulb can switch on or switch off"
+                },
+                {
+                    "id" : "4.2",
+                    "Point" : "If the light bulb is on:"
+                }
+            ]
         }
     ]
 }
